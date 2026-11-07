@@ -1,4 +1,4 @@
-##Thông tin môn học
+## Thông tin môn học
 
 Trường: ĐH Bách Khoa – ĐHQG-HCM
 Khoa: Khoa học và Kỹ thuật Máy tính
