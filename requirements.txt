@@ -1,0 +1,13 @@
+beautifulsoup4>=4.13
+ipykernel>=6.29
+matplotlib>=3.9
+nbconvert>=7.16
+nbformat>=5.10
+numpy>=2.0
+pandas>=2.2
+plotly>=6.0
+pypdf>=6.0
+scikit-learn>=1.6
+seaborn>=0.13
+selenium>=4.30
+statsmodels>=0.14

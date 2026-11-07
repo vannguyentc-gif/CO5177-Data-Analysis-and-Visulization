@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bài tập lớn – Nền tảng lập trình cho phân tích và trực quan dữ liệu</title>
+<style>
+  body{font-family:Segoe UI,Arial,sans-serif;margin:0;background:#f5f7fa;color:#222}
+  header{background:#1f3a5f;color:#fff;padding:32px 8%}
+  header h1{margin:0 0 6px;font-size:28px} header p{margin:2px 0;opacity:.9}
+  main{padding:24px 8%} h2{border-bottom:2px solid #1f3a5f;padding-bottom:4px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:20px}
+  .card{background:#fff;border-radius:10px;padding:20px;box-shadow:0 1px 4px rgba(0,0,0,.12)}
+  .card h3{margin-top:0} .tag{display:inline-block;background:#e3ecf7;color:#1f3a5f;border-radius:12px;padding:2px 10px;font-size:12px;margin-right:4px}
+  a.btn{display:inline-block;margin:4px 6px 0 0;padding:6px 12px;background:#1f3a5f;color:#fff;border-radius:6px;text-decoration:none;font-size:14px}
+  a.btn.alt{background:#fff;color:#1f3a5f;border:1px solid #1f3a5f}
+  table{border-collapse:collapse} td,th{padding:6px 14px;border-bottom:1px solid #ddd;text-align:left}
+  .pending{color:#b33;font-weight:600}
+</style>
+</head>
+<body>
+<header>
+  <h1>Bài tập lớn: Nền tảng lập trình cho phân tích và trực quan dữ liệu</h1>
+  <p>Trường Đại học Bách Khoa – ĐHQG-HCM · Khoa Khoa học và Kỹ thuật Máy tính</p>
+  <p>Học kỳ 261, năm học 2026–2027 · Giảng viên: Lê Thành Sách</p>
+</header>
+<main>
+  <h2>Thông tin nhóm</h2>
+  <table>
+    <tr><th>Tên nhóm</th><td><strong>BugIsFeature</strong> (làm cá nhân)</td></tr>
+    <tr><th>Thành viên</th><td><strong>Nguyễn Thị Cẩm Vân – 2570803</strong> – thực hiện toàn bộ 2 bài</td></tr>
+    <tr><th>GitHub</th><td><a href="https://github.com/vannguyentc-gif">vannguyentc-gif</a></td></tr>
+    <tr><th>Repository</th><td><a href="https://github.com/vannguyentc-gif/CO5177-Data-Analysis-and-Visulization">CO5177-Data-Analysis-and-Visulization</a></td></tr>
+    <tr><th>PDF tổng hợp LMS</th><td><a href="reports/BugIsFeature-report.pdf">BugIsFeature-report.pdf</a></td></tr>
+  </table>
+
+  <h2>Các bài tập lớn con</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">Tabular</span><span class="tag">Bắt buộc</span>
+      <h3>Bài 1 – Dự đoán xe "lemon" trong đấu giá xe cũ</h3>
+      <p>72.983 mẫu × 33 cột; mất cân bằng lớp (12%), missing, outlier. So sánh LogReg / RandomForest / HistGB, xử lý imbalance, chỉnh ngưỡng, feature importance.</p>
+      <a class="btn" href="tabular.html">Xem báo cáo</a>
+      <a class="btn alt" href="notebooks/01_tabular_kick_lemon.ipynb">Notebook</a>
+      <a class="btn alt" href="https://colab.research.google.com/github/vannguyentc-gif/CO5177-Data-Analysis-and-Visulization/blob/main/docs/notebooks/01_tabular_kick_lemon.ipynb">Colab</a>
+      <a class="btn alt" href="reports/tabular-report.pdf">PDF report</a>
+      <p><span class="pending">Video YouTube: chưa cập nhật</span></p>
+    </div>
+    <div class="card">
+      <span class="tag">Time series</span><span class="tag">Tự chọn</span>
+      <h3>Bài 2 – Dự báo CO₂ Mauna Loa (12 tuần tới)</h3>
+      <p>2.284 điểm tuần, xu hướng + mùa vụ, 59 giá trị thiếu. Chia theo thời gian, so sánh Naive / Seasonal naive / Ridge / RF / HistGB, level vs delta.</p>
+      <a class="btn" href="timeseries.html">Xem báo cáo</a>
+      <a class="btn alt" href="notebooks/02_timeseries_co2.ipynb">Notebook</a>
+      <a class="btn alt" href="https://colab.research.google.com/github/vannguyentc-gif/CO5177-Data-Analysis-and-Visulization/blob/main/docs/notebooks/02_timeseries_co2.ipynb">Colab</a>
+      <a class="btn alt" href="reports/timeseries-report.pdf">PDF report</a>
+      <p><span class="pending">Video YouTube: chưa cập nhật</span></p>
+    </div>
+  </div>
+</main>
+</body>
+</html>

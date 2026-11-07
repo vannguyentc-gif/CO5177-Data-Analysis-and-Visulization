@@ -1,0 +1,8 @@
+.venv/
+.vscode/
+.edge-headless/
+.chrome-headless/
+.selenium-chrome/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
