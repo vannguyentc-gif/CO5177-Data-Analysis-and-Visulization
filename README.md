@@ -1,10 +1,10 @@
 ## Thông tin môn học
 
-Trường: ĐH Bách Khoa – ĐHQG-HCM
-Khoa: Khoa học và Kỹ thuật Máy tính
-Học phần: **Nền tảng lập trình cho phân tích và trực quan dữ liệu**
-**Học kỳ 261, năm học 2026–2027**
-Giảng viên: **Lê Thành Sách**
+- Trường: ĐH Bách Khoa – ĐHQG-HCM
+- Khoa: Khoa học và Kỹ thuật Máy tính
+- Học phần: **Nền tảng lập trình cho phân tích và trực quan dữ liệu**
+- **Học kỳ 261, năm học 2026–2027**
+- Giảng viên: **Lê Thành Sách**
 
 # CO5177 – Data Analysis and Visualization
 Bài tập lớn cá nhân của **Nguyễn Thị Cẩm Vân – MSSV 2570803**, nhóm **BugIsFeature**.
